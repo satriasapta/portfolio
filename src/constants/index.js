@@ -3,38 +3,42 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Passionate about technological developments, I am always committed to learning new things. I actively follow the latest advancements in the world of software development through online learning and courses.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+
+export const ABOUT_TEXT = `I am passionate about technological developments and always committed to learning new things. I actively follow the latest developments in the world of software development through online learning and courses. Apart from being a developer, I also love collaborating with teams. I believe that good interprofessional collaboration is the key to success in development projects. I have experience in working in cross-disciplinary teams to achieve common goals.`;
+
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    year: "Aug 2023 - Dec 2023",
+    role: "Assistant Lecturer for Geographic Information Systems",
+    company: "Lampung University",
+    description: `Guided 33 third-year students in learning geographic information system alongside 3 other teaching assistants. Subjects covered: developed WebGIS with CodeIgniter 4, database migration, created 3D Map in QGIS, and more.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    year: "Jan 2023 - Jul 2023",
+    role: "Head of Assistant Lecturer for Web Programming",
+    company: "Lampung University",
+    description: `Led and mentored a team of 7 teaching assistants, facilitating the learning of 100+ second-year students for a web programming course. Subjects covered: basic material on HTML & CSS, PHP, and database management with MySQL.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    year: "Jul 2022 - Dec 2022",
+    role: "Assistant Lecturer for Multimedia",
+    company: "Lampung University",
+    description: `Guided 38 second-year students in learning design, editing photo and video alongside 5 other teaching assistants.
+    Subjects covered: learning to use the Adobe Photoshop application for editing photos, Corel Draw for design, Adobe Premiere Pro for editing videos, and more.
+`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Dec 2021 - Feb 2022",
+    role: "Backend Developer",
+    company: "BMKG Klas 1 Bandara Raden Inten II Bandar Lampung",
+    description: `Developed SI ALMET(Sistem Informasi Alat Meteorologi) as a back-end developer and collaborated with front-end developer. SI ALMET is an information system used to record and monitor the condition of equipment in the company. and Assisted technicians in checking and maintaining computer systems in the company.`,
+    technologies: ["HTML & CSS", "CodeIgniter", "PHP", "Sql"],
   },
 ];
 
@@ -70,7 +74,8 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Kota Metro, Lampung",
+  phoneNo: "+62821 7612 0493",
+  email: "satriasapta48@gmail.com",
+  sendEmail: "mailto:satriasapta48@gmail.com"
 };
