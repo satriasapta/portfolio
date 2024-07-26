@@ -10,10 +10,9 @@ const Navbar = () => {
                 <h1 className="text-3xl font-bold">S S</h1>
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-                <FaLinkedin />
-                <FaGithub />
-                <FaSquareXTwitter />
-                <FaInstagram />
+                <a href="https://www.linkedin.com/in/satria-sapta"><FaLinkedin /></a>
+                <a href="https://github.com/satria-sapta"><FaGithub /></a>
+                <a href="https://instagram.com/satria.sapta"><FaInstagram /></a>
             </div>
         </nav>
     )
