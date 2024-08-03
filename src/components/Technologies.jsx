@@ -1,9 +1,9 @@
 import { RiReactjsLine } from "react-icons/ri"
 import { TbBrandNextjs } from "react-icons/tb"
 import { SiMongodb } from "react-icons/si"
-import { DiRedis } from "react-icons/di"
+import ci4 from "../assets/ci4.webp"
+import laravel from "../assets/laravel.png"
 import { FaNodeJs } from "react-icons/fa"
-import { BiLogoPostgresql } from "react-icons/bi"
 import { motion } from 'framer-motion'
 
 const inconVariants = (duration) => ({
@@ -53,12 +53,13 @@ const Technologies = () => {
                     <SiMongodb className="text-7xl text-green-400" />
                 </motion.div>
                 <motion.div
-                    variants={inconVariants(6)}
+                    variants={inconVariants(3)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <DiRedis className="text-7xl text-red-700" />
+                    <img src={ci4} alt="ci4" className="w-[70px]" />
                 </motion.div>
+
                 <motion.div
                     variants={inconVariants(4)}
                     initial="initial"
@@ -66,9 +67,13 @@ const Technologies = () => {
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <FaNodeJs className="text-7xl text-green-500" />
                 </motion.div>
-                <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <BiLogoPostgresql className="text-7xl text-sky-700" />
-                </div>
+                <motion.div
+                    variants={inconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <img src={laravel} alt="laravel" className="w-[70px]" />
+                </motion.div>
             </motion.div>
         </div>
     )
