@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 export const HERO_CONTENT = `Passionate about technological developments, I am always committed to learning new things. I actively follow the latest advancements in the world of software development through online learning and courses.`;
 
 
-export const ABOUT_TEXT = `I am passionate about technological developments and always committed to learning new things. I actively follow the latest developments in the world of software development through online learning and courses. Apart from being a developer, I also love collaborating with teams. I believe that good interprofessional collaboration is the key to success in development projects. I have experience in working in cross-disciplinary teams to achieve common goals.`;
+export const ABOUT_TEXT = `I am passionate about technological developments and always committed to learning new things. I actively follow the latest developments in the world of software development through online learning and courses. Apart from being a developer, I also love collaborating with teams. I believe that good interprofessional collaboration is the key to success in development projects. I have experience in working in teams to achieve common goals.`;
 
 
 export const EXPERIENCES = [
@@ -60,7 +60,7 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Kota Metro, Lampung",
-  phoneNo: "+62821 7612 0493",
+  phoneNo: "+62 821 7612 0493",
   email: "satriasapta48@gmail.com",
   sendEmail: "mailto:satriasapta48@gmail.com"
 };
