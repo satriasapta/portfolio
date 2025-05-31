@@ -12,38 +12,41 @@ export const EXPERIENCES = [
     year: "Sep 2024 - Now",
     role: "Back End Developer",
     company: "PT Lampung Berkah Finansial Teknologi (LAHAN SIKAM)",
-    description: `Designed and implemented robust back-end solutions to enhance internal systems, ensuring scalability and efficiency while aligning with business requirements. <br> Identified, diagnosed, and resolved existing system issues, improving overall system performance and reliability. `,
-    technologies: ["PHP", "CodeIgniter", "MySQL", "Laravel"],
+    description: `- Designed and implemented robust back-end solutions to enhance internal systems, ensuring scalability and efficiency while aligning with business requirements. \n - Identified, diagnosed, and resolved existing system issues, improving overall system performance and reliability. `,
+    technologies: ["PHP", "CodeIgniter 3", "SQL", "Laravel"],
   },
   {
     year: "Aug 2023 - Dec 2023",
     role: "Assistant Lecturer for Geographic Information Systems",
     company: "Lampung University",
-    description: `Guided 33 third-year students in learning geographic information system alongside 3 other teaching assistants. Subjects covered: developed WebGIS with CodeIgniter 4, database migration, created 3D Map in QGIS, and more.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    description: `- Guided 33 third-year students in learning geographic information system alongside 3 other teaching assistants. \n
+    - Subjects covered: developed WebGIS with CodeIgniter 4, database migration, created 3D Map in QGIS, and more.`,
+    technologies: ["Javascript", "SQL", "CodeIgniter 4", "QGIS"],
   },
   {
     year: "Jan 2023 - Jul 2023",
     role: "Head of Assistant Lecturer for Web Programming",
     company: "Lampung University",
-    description: `Led and mentored a team of 7 teaching assistants, facilitating the learning of 100+ second-year students for a web programming course. Subjects covered: basic material on HTML & CSS, PHP, and database management with MySQL.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    description: `- Led and mentored a team of 7 teaching assistants, facilitating the learning of 100+ second-year students for a web programming course. \n
+    - Subjects covered: basic material on HTML & CSS, PHP, and database management with MySQL.`,
+    technologies: ["HTML", "CSS", "Javascript", "SQL"],
   },
   {
     year: "Jul 2022 - Dec 2022",
     role: "Assistant Lecturer for Multimedia",
     company: "Lampung University",
-    description: `Guided 38 second-year students in learning design, editing photo and video alongside 5 other teaching assistants.
-    Subjects covered: learning to use the Adobe Photoshop application for editing photos, Corel Draw for design, Adobe Premiere Pro for editing videos, and more.
+    description: `- Guided 38 second-year students in learning design, editing photo and video alongside 5 other teaching assistants. \n
+    - Subjects covered: learning to use the Adobe Photoshop application for editing photos, Corel Draw for design, Adobe Premiere Pro for editing videos, and more.
 `,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    technologies: ["Premiere Pro", "Photoshop", "Corel Draw"],
   },
   {
     year: "Dec 2021 - Feb 2022",
     role: "Backend Developer",
     company: "BMKG Klas 1 Bandara Raden Inten II Bandar Lampung",
-    description: `Developed SI ALMET(Sistem Informasi Alat Meteorologi) as a back-end developer and collaborated with front-end developer. SI ALMET is an information system used to record and monitor the condition of equipment in the company. and Assisted technicians in checking and maintaining computer systems in the company.`,
-    technologies: ["HTML & CSS", "CodeIgniter", "PHP", "Sql"],
+    description: `- Developed SI ALMET (Sistem Informasi Alat Meteorologi) as a back-end developer and collaborated with front-end developer. \n
+    - SI ALMET is an information system used to record and monitor the condition of equipment in the company. and Assisted technicians in checking and maintaining computer systems in the company.`,
+    technologies: ["HTML & CSS", "CodeIgniter", "PHP", "SQL"],
   },
 ];
 
