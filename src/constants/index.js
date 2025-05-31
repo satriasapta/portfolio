@@ -9,6 +9,13 @@ export const ABOUT_TEXT = `I am passionate about technological developments and 
 
 export const EXPERIENCES = [
   {
+    year: "Sep 2024 - Now",
+    role: "Back End Developer",
+    company: "PT Lampung Berkah Finansial Teknologi (LAHAN SIKAM)",
+    description: `Designed and implemented robust back-end solutions to enhance internal systems, ensuring scalability and efficiency while aligning with business requirements. <br> Identified, diagnosed, and resolved existing system issues, improving overall system performance and reliability. `,
+    technologies: ["PHP", "CodeIgniter", "MySQL", "Laravel"],
+  },
+  {
     year: "Aug 2023 - Dec 2023",
     role: "Assistant Lecturer for Geographic Information Systems",
     company: "Lampung University",
