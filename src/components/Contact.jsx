@@ -13,13 +13,25 @@ const Contact = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 1 }}
-                    className="my-4">{CONTACT.address}</motion.p>
+                    className="my-4">
+                    <a href={`https://maps.google.com/?q=${encodeURIComponent(CONTACT.address)}`} target="_blank" rel="noopener noreferrer">
+                        {CONTACT.address}
+                    </a>
+                </motion.p>
                 <motion.p
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 1 }}
-                    className="my-4">{CONTACT.phoneNo}</motion.p>
-                <a href={CONTACT.sendEmail}>{CONTACT.email}</a>
+                    className="my-4">
+                    <a href={`tel:${CONTACT.phoneNo}`}>{CONTACT.phoneNo}</a>
+                </motion.p>
+                <motion.p
+                    whileInView={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, x: -100 }}
+                    transition={{ duration: 1 }}
+                    className="my-4">
+                    <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
+                </motion.p>
             </div>
         </div>
     )

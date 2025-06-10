@@ -1,5 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.png";
+import job_portal from "../assets/projects/job-portal.png";
 
 export const HERO_CONTENT = `Passionate about technological developments, I am always committed to learning new things. I actively follow the latest advancements in the world of software development through online learning and courses.`;
 
@@ -12,7 +14,8 @@ export const EXPERIENCES = [
     year: "Sep 2024 - Now",
     role: "Back End Developer",
     company: "PT Lampung Berkah Finansial Teknologi (LAHAN SIKAM)",
-    description: `- Designed and implemented robust back-end solutions to enhance internal systems, ensuring scalability and efficiency while aligning with business requirements. \n - Identified, diagnosed, and resolved existing system issues, improving overall system performance and reliability. `,
+    description: `- Designed and implemented robust back-end solutions to enhance internal systems, ensuring scalability and efficiency while aligning with business requirements. \n - Identified, diagnosed, and resolved existing system issues, improving overall system performance and reliability. \n - Created reports in accordance with the established SOPs (Standard Operating Procedures). \n - Reported bugs, incidents, and system downtimes to the relevant teams and management, and documented resolutions for future reference.`,
+    // ...existing code...
     technologies: ["PHP", "CodeIgniter 3", "SQL", "Laravel"],
   },
   {
@@ -53,17 +56,17 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "SI ALMET",
-    image: project1,
+    image: project4,
     description:
       "This project was created to meet the needs of meteorological instrument recording at the Raden Inten II Bandar Lampung Meteorological Station.",
-    technologies: ["HTML", "CSS", "PHP", "Code Igniter 4", "MySQL"],
+    technologies: ["HTML", "CSS", "PHP", "Code Igniter 4", "SQL"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Job Connect ID",
+    image: job_portal,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Job Connect ID is a user-friendly job portal connecting job seekers and employers across Indonesia. Powered by Laravel 10, it offers fast, secure, and easy access to the latest job listings, helping users find the right opportunities quickly on any device.",
+    technologies: ["HTML", "CSS", "Laravel", "SQL", "Bootstrap"],
   },
 
 ];
