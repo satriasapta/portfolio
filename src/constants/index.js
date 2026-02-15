@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 import job_portal from "../assets/projects/job-portal.png";
 
 export const HERO_CONTENT = `Passionate about technological developments, I am always committed to learning new things. I actively follow the latest advancements in the world of software development through online learning and courses.`;
@@ -67,6 +68,13 @@ export const PROJECTS = [
     description:
       "Job Connect ID is a user-friendly job portal connecting job seekers and employers across Indonesia. Powered by Laravel 10, it offers fast, secure, and easy access to the latest job listings, helping users find the right opportunities quickly on any device.",
     technologies: ["HTML", "CSS", "Laravel", "SQL", "Bootstrap"],
+  },
+  {
+    title: "Expense Tracker",
+    image: project5,
+    description:
+      "Expense Tracker Web Application is a web-based financial management app built with React for the frontend and MongoDB as the database. It allows users to record income and expenses, monitor their balance in real-time, and export financial reports for documentation and analysis purposes.",
+    technologies: ["HTML", "TailwindCSS","React", "MongoDB", "Node.js"],
   },
 
 ];
