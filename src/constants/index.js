@@ -66,15 +66,34 @@ export const PROJECTS = [
     title: "Job Connect ID",
     image: job_portal,
     description:
-      "Job Connect ID is a user-friendly job portal connecting job seekers and employers across Indonesia. Powered by Laravel 10, it offers fast, secure, and easy access to the latest job listings, helping users find the right opportunities quickly on any device.",
-    technologies: ["HTML", "CSS", "Laravel", "SQL", "Bootstrap"],
+       "Job Connect ID is a full-stack job portal platform built with Laravel 10. The system implements secure authentication, role-based access control, and dynamic job filtering to connect job seekers and employers across Indonesia. It utilizes MVC architecture, optimized SQL queries, and server-side validation to ensure scalable and secure job listing management.",
+    technologies: [
+      "Laravel",
+      "PHP",
+      "MySQL",
+      "Eloquent ORM",
+      "Bootstrap",
+      "Authentication",
+      "MVC"
+    ]
   },
   {
     title: "Expense Tracker",
     image: project5,
     description:
-      "Expense Tracker Web Application is a web-based financial management app built with React for the frontend and MongoDB as the database. It allows users to record income and expenses, monitor their balance in real-time, and export financial reports for documentation and analysis purposes.",
-    technologies: ["HTML", "TailwindCSS","React", "MongoDB", "Node.js"],
+      "Expense Tracker is a full-stack financial management web application built with a separated frontend and backend architecture. The frontend is developed using React, while the backend is powered by Node.js and Express, with MongoDB as the database. The system implements RESTful APIs to handle income and expense transactions, real-time balance calculation, and financial report generation. It supports secure data handling, structured database design, and exportable reporting features for analysis and documentation purposes.",
+    technologies: [
+      "HTML",
+      "TailwindCSS",
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "RESTful API",
+      "JWT Authentication",
+      "Axios",
+      "MVC Architecture"
+    ],
   },
 
 ];
