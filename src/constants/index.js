@@ -56,17 +56,10 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "SI ALMET",
-    image: project4,
-    description:
-      "This project was created to meet the needs of meteorological instrument recording at the Raden Inten II Bandar Lampung Meteorological Station.",
-    technologies: ["HTML", "CSS", "PHP", "Code Igniter 4", "SQL"],
-  },
-  {
     title: "Job Connect ID",
     image: job_portal,
     description:
-       "Job Connect ID is a full-stack job portal platform built with Laravel 10. The system implements secure authentication, role-based access control, and dynamic job filtering to connect job seekers and employers across Indonesia. It utilizes MVC architecture, optimized SQL queries, and server-side validation to ensure scalable and secure job listing management.",
+      "Job Connect ID is a full-stack job portal platform built with Laravel 10. The system implements secure authentication, role-based access control, and dynamic job filtering to connect job seekers and employers across Indonesia. It utilizes MVC architecture, optimized SQL queries, and server-side validation to ensure scalable and secure job listing management.",
     technologies: [
       "Laravel",
       "PHP",
@@ -75,7 +68,8 @@ export const PROJECTS = [
       "Bootstrap",
       "Authentication",
       "MVC"
-    ]
+    ],
+    githubLink: "https://github.com/satriasapta/job-portal"
   },
   {
     title: "Expense Tracker",
@@ -94,7 +88,17 @@ export const PROJECTS = [
       "Axios",
       "MVC Architecture"
     ],
+    githubLink: "https://github.com/satriasapta/ExpenseTracker"
   },
+  {
+    title: "SI ALMET",
+    image: project4,
+    description:
+      "This project was created to meet the needs of meteorological instrument recording at the Raden Inten II Bandar Lampung Meteorological Station.",
+    technologies: ["HTML", "CSS", "PHP", "Code Igniter 4", "SQL"],
+    // githubLink: "https://github.com/satriasapta/SI-ALMET"
+  },
+
 
 ];
 
